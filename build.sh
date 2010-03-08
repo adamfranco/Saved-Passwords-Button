@@ -67,18 +67,36 @@ rm -rf $TMP_DIR
 mkdir $TMP_DIR
 mkdir $TMP_DIR/chrome
 
-if [ $HAS_COMPONENTS ]; then
+if [ -d "./components" ]; then
   mkdir $TMP_DIR/components
   cp components/* $TMP_DIR/components
 fi
 
+if [ -d "./content" ]; then
+  mkdir $TMP_DIR/content
+  cp content/* $TMP_DIR/content
+fi
+
 if [ -d "./defaults" ]; then
-  DEFAULT_FILES="`find ./defaults -path '*DS_Store*' -prune -o -type f -print | grep -v \~`"
-  cp --parents $DEFAULT_FILES $TMP_DIR
+  mkdir $TMP_DIR/defaults
+  cp -R defaults/* $TMP_DIR/defaults
+fi
+
+if [ -d "./locale" ]; then
+  mkdir $TMP_DIR/locale
+  cp -R locale/* $TMP_DIR/locale
+fi
+
+
+if [ -d "./skin" ]; then
+  mkdir $TMP_DIR/skin
+  cp skin/* $TMP_DIR/skin
 fi
 
 # Copy other files to the root of future XPI.
 cp $ROOT_FILES $TMP_DIR
+
+find $TMP_DIR -name ".DS_Store" -exec rm -Rf {} \;
 
 # generate the JAR file, excluding .DS_Store and temporary files
 zip -0 -r $TMP_DIR/chrome/$APP_NAME.jar `find content -path '*DS_Store*' -prune -o -type f -print | grep -v \~`
