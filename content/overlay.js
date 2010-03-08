@@ -39,12 +39,17 @@ var savedpasswords = {
     // initialization code
     this.initialized = true;
     this.strings = document.getElementById("savedpasswords-strings");
+    this.window = null;
   },
   onMenuItemCommand: function(e) {
-    var promptService = Components.classes["@mozilla.org/embedcomp/prompt-service;1"]
-                                  .getService(Components.interfaces.nsIPromptService);
-    promptService.alert(window, this.strings.getString("helloMessageTitle"),
-                                this.strings.getString("helloMessage"));
+    if (this.window && !this.window.closed) {
+      this.window.focus();
+	} else {
+	  this.window = openDialog("chrome://passwordmgr/content/passwordManager.xul", "SignonViewerDialog");
+	  this.window.onclose = function () {
+	    savedpasswords.window = null;
+	  }
+	}
   },
   onToolbarButtonCommand: function(e) {
     // just reuse the function above.  you can change this, obviously!
