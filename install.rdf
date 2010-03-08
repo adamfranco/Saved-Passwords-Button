@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>savedpasswords@adamfranco.com</em:id>
+    <em:name>Saved Passwords Button</em:name>
+    <em:version>1.0</em:version>
+    <em:creator>Adam Franco</em:creator>
+    <em:description>Adds a toolbar button for opening the Saved Passwords window.</em:description>
+    <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
+    <em:iconURL>chrome://savedpasswords/content/savedpasswords.png</em:iconURL>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- firefox -->
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>3.6.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

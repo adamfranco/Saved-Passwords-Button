@@ -1,0 +1,5 @@
+content	savedpasswords	content/
+locale	savedpasswords	en-US	locale/en-US/
+skin	savedpasswords	classic/1.0	skin/
+overlay	chrome://browser/content/browser.xul	chrome://savedpasswords/content/firefoxOverlay.xul
+style	chrome://global/content/customizeToolbar.xul	chrome://savedpasswords/skin/overlay.css
