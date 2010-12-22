@@ -42,10 +42,14 @@ var savedpasswords = {
     this.window = null;
   },
   onMenuItemCommand: function(e) {
+  	var location = this.getCurrentURL();
+	var matches = location.match(/^[a-z]+:\/\/([^\/]+)/);
+	var host = matches[1];
+	
     if (this.window && !this.window.closed) {
       this.window.focus();
 	} else {
-	  this.window = openDialog("chrome://passwordmgr/content/passwordManager.xul", "SignonViewerDialog");
+	  this.window = openDialog("chrome://passwordmgr/content/passwordManager.xul", "SignonViewerDialog", '', {filterString: host});
 	  this.window.onclose = function () {
 	    savedpasswords.window = null;
 	  }
@@ -54,7 +58,15 @@ var savedpasswords = {
   onToolbarButtonCommand: function(e) {
     // just reuse the function above.  you can change this, obviously!
     savedpasswords.onMenuItemCommand(e);
-  }
+  },
+  getCurrentURL: function() {
 
+    var currentWindow = Components.classes["@mozilla.org/appshell/window-mediator;1"].getService(Components.interfaces.nsIWindowMediator).getMostRecentWindow("navigator:browser");
+
+    var currBrowser = currentWindow.getBrowser();
+    var currURL = currBrowser.currentURI.spec;
+
+    return currURL;
+  }
 };
 window.addEventListener("load", function(e) { savedpasswords.onLoad(e); }, false);
