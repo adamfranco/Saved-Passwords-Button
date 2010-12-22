@@ -44,11 +44,6 @@
   <stringbundleset id="stringbundleset">
     <stringbundle id="savedpasswords-strings" src="chrome://savedpasswords/locale/savedpasswords.properties"/>
   </stringbundleset>
-
-  <menupopup id="menu_ToolsPopup">
-    <menuitem id="savedpasswords-hello" label="&savedpasswords.label;" 
-              oncommand="savedpasswords.onMenuItemCommand(event);"/>
-  </menupopup>
   <toolbarpalette id="BrowserToolbarPalette">
   <toolbarbutton id="savedpasswords-toolbar-button"
     label="&savedpasswordsToolbar.label;"
