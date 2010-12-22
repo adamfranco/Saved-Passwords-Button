@@ -42,7 +42,7 @@ function SavedPasswordsInit()
 		.getService(Components.interfaces.nsIPrefService).getBranch("extensions.savedpasswords@adamfranco.com.");
 	var installed = prefs.getBoolPref("buttonInstalled", false);
   	if (!installed)
-		setTimeout("SavedPasswordsAddToToolbar();", 0);
+		SavedPasswordsAddToToolbar();
 }
 
 function SavedPasswordsAddToToolbar () {
