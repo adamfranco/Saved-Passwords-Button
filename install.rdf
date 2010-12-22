@@ -13,8 +13,8 @@
     <em:localized>
       <Description>
         <em:locale>es-ES</em:locale>
-        <em:name>Saved Passwords Button (Botón Ahorrado de las Contraseñas)</em:name>
-        <em:description>Agrega un artículo del botón y de menú de la barra de herramientas para abrir el diálogo ahorrado de las contraseñas.</em:description>
+        <em:name>Saved Passwords Button (Botón Contraseñas Guardadas)</em:name>
+        <em:description>Agrega un botón en la barra de herramientas para abrir la ventana Contraseñas Guardadas.</em:description>
       </Description>
     </em:localized>
     <em:localized>
