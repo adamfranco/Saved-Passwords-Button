@@ -44,7 +44,10 @@ var savedpasswords = {
   onMenuItemCommand: function(e) {
   	var location = this.getCurrentURL();
 	var matches = location.match(/^[a-z]+:\/\/([^\/]+)/);
-	var host = matches[1];
+	if (matches)
+	  var host = matches[1];
+    else
+      var host = '';
 	
     if (this.window && !this.window.closed) {
       this.window.focus();
