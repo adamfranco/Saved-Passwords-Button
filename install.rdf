@@ -45,6 +45,16 @@
     </em:localized>
     <em:localized>
       <Description>
+        <em:locale>zh-CN</em:locale>
+        <em:name>已保存密码 (Saved Passwords Button)</em:name>
+        <em:creator>Adam Franco</em:creator>
+        <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
+        <em:description>添加打开[已保存密码]对话框的工具栏按钮和菜单项。</em:description>
+        <em:translator>yfdyh000 (yfdyh000@gmail.com)</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
         <em:locale>fr</em:locale>
         <em:name>Saved Passwords Button (Bouton sauvé de mots de passe)</em:name>
         <em:creator>Adam Franco</em:creator>
