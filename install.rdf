@@ -34,6 +34,16 @@
     </em:localized>
     <em:localized>
       <Description>
+        <em:locale>sv-SE</em:locale>
+        <em:name>Knapp för Sparade lösenord (Saved Passwords Button)</em:name>
+        <em:creator>Adam Franco</em:creator>
+        <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
+        <em:description>Lägger till en verktygsfältsknapp som öppnar dialogen Sparade lösenord.</em:description>
+        <em:translator>Mikael Hiort af Ornäs</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
         <em:locale>fr</em:locale>
         <em:name>Saved Passwords Button (Bouton sauvé de mots de passe)</em:name>
         <em:creator>Adam Franco</em:creator>
