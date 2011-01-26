@@ -24,6 +24,16 @@
     </em:localized>
     <em:localized>
       <Description>
+        <em:locale>nl</em:locale>
+        <em:name>Saved Passwords Button</em:name>
+        <em:creator>Adam Franco</em:creator>
+        <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
+        <em:description>Voegt een werkbalkknop toe voor het openen van het venster Opgeslagen wachtwoorden.</em:description>
+        <em:translator>markh van BabelZilla.org</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
         <em:locale>fr</em:locale>
         <em:name>Saved Passwords Button (Bouton sauvé de mots de passe)</em:name>
         <em:creator>Adam Franco</em:creator>

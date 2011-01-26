@@ -2,6 +2,7 @@ content	savedpasswords	chrome/content/
 locale	savedpasswords	de		chrome/locale/de/
 locale	savedpasswords	en-US	chrome/locale/en-US/
 locale	savedpasswords	es		chrome/locale/es/
+locale	savedpasswords	nl		chrome/locale/nl/
 locale	savedpasswords	fr		chrome/locale/fr/
 locale	savedpasswords	it		chrome/locale/it/
 locale	savedpasswords	ja		chrome/locale/ja/
