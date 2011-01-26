@@ -15,7 +15,7 @@
     </em:localized>
     <em:localized>
       <Description>
-        <em:locale>es-ES</em:locale>
+        <em:locale>es</em:locale>
         <em:name>Saved Passwords Button (Botón Contraseñas Guardadas)</em:name>
         <em:creator>Adam Franco</em:creator>
         <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
@@ -24,7 +24,7 @@
     </em:localized>
     <em:localized>
       <Description>
-        <em:locale>fr-FR</em:locale>
+        <em:locale>fr</em:locale>
         <em:name>Saved Passwords Button (Bouton sauvé de mots de passe)</em:name>
         <em:creator>Adam Franco</em:creator>
         <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
@@ -33,7 +33,7 @@
     </em:localized>
     <em:localized>
       <Description>
-        <em:locale>it-IT</em:locale>
+        <em:locale>it</em:locale>
         <em:name>Saved Passwords Button (Tasto conservato di parole d'accesso)</em:name>
         <em:creator>Adam Franco</em:creator>
         <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
@@ -42,7 +42,7 @@
     </em:localized>
     <em:localized>
       <Description>
-        <em:locale>ja-JP</em:locale>
+        <em:locale>ja</em:locale>
         <em:name>Saved Passwords Button (救われたパスワードはボタンがかかる)</em:name>
         <em:creator>Adam Franco</em:creator>
         <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
@@ -60,7 +60,7 @@
     </em:localized>
     <em:localized>
       <Description>
-        <em:locale>ru-RU</em:locale>
+        <em:locale>ru</em:locale>
         <em:name>Saved Passwords Button (Сохраненная кнопка паролей)</em:name>
         <em:creator>Adam Franco</em:creator>
         <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>

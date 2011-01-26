@@ -1,12 +1,12 @@
 content	savedpasswords	content/
 locale	savedpasswords	de		locale/de/
 locale	savedpasswords	en-US	locale/en-US/
-locale	savedpasswords	es-ES	locale/es-ES/
-locale	savedpasswords	fr-FR	locale/fr-FR/
-locale	savedpasswords	it-IT	locale/it-IT/
-locale	savedpasswords	ja-JP	locale/ja-JP/
+locale	savedpasswords	es		locale/es/
+locale	savedpasswords	fr		locale/fr/
+locale	savedpasswords	it		locale/it/
+locale	savedpasswords	ja		locale/ja/
 locale	savedpasswords	pt-PT	locale/pt-PT/
-locale	savedpasswords	ru-RU	locale/ru-RU/
+locale	savedpasswords	ru		locale/ru/
 skin	savedpasswords	classic/1.0	skin/
 overlay	chrome://browser/content/browser.xul	chrome://savedpasswords/content/firefoxOverlay.xul
 style	chrome://global/content/customizeToolbar.xul	chrome://savedpasswords/skin/overlay.css
