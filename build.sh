@@ -34,7 +34,6 @@
 # specified in command-line. Available config variables:
 APP_NAME=          # short-name, jar and xpi files name. Must be lowercase with no spaces
 CHROME_PROVIDERS=  # which chrome providers we have (space-separated list)
-CLEAN_UP=          # delete the jar / "files" when done?       (1/0)
 ROOT_FILES=        # put these files in root of xpi (space separated list of leaf filenames)
 ROOT_DIRS=         # ...and these directories       (space separated list)
 BEFORE_BUILD=      # run this before building       (bash command)
@@ -59,7 +58,6 @@ TMP_DIR=build
 #set -x
 
 # remove any left-over files
-rm $APP_NAME.jar
 rm $APP_NAME.xpi
 rm -rf $TMP_DIR
 
@@ -97,15 +95,6 @@ fi
 cp $ROOT_FILES $TMP_DIR
 
 find $TMP_DIR -name ".DS_Store" -exec rm -Rf {} \;
-
-# generate the JAR file, excluding .DS_Store and temporary files
-zip -0 -r $TMP_DIR/chrome/$APP_NAME.jar `find content -path '*DS_Store*' -prune -o -type f -print | grep -v \~`
-if [ -d "./locale" ]; then
-  zip -0 -r $TMP_DIR/chrome/$APP_NAME.jar `find locale -path '*DS_Store*' -prune -o -type f -print | grep -v \~`
-fi
-if [ -d "./skin" ]; then
-  zip -0 -r $TMP_DIR/chrome/$APP_NAME.jar `find skin -path '*DS_Store*' -prune -o -type f -print | grep -v \~`
-fi
 
 # generate the XPI file
 cd $TMP_DIR
