@@ -63,16 +63,15 @@ rm -rf $TMP_DIR
 
 # create xpi directory layout and populate it
 mkdir $TMP_DIR
-mkdir $TMP_DIR/chrome
+
+if [ -d "./chrome" ]; then
+  mkdir $TMP_DIR/chrome
+  cp -R chrome/* $TMP_DIR/chrome
+fi
 
 if [ -d "./components" ]; then
   mkdir $TMP_DIR/components
   cp components/* $TMP_DIR/components
-fi
-
-if [ -d "./content" ]; then
-  mkdir $TMP_DIR/content
-  cp content/* $TMP_DIR/content
 fi
 
 if [ -d "./defaults" ]; then
@@ -80,16 +79,6 @@ if [ -d "./defaults" ]; then
   cp -R defaults/* $TMP_DIR/defaults
 fi
 
-if [ -d "./locale" ]; then
-  mkdir $TMP_DIR/locale
-  cp -R locale/* $TMP_DIR/locale
-fi
-
-
-if [ -d "./skin" ]; then
-  mkdir $TMP_DIR/skin
-  cp skin/* $TMP_DIR/skin
-fi
 
 # Copy other files to the root of future XPI.
 cp $ROOT_FILES $TMP_DIR
