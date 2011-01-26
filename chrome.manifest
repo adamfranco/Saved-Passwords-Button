@@ -5,11 +5,6 @@ locale	savedpasswords	es		chrome/locale/es/
 locale	savedpasswords	nl		chrome/locale/nl/
 locale	savedpasswords	sv-SE	chrome/locale/sv-SE/
 locale	savedpasswords	zh-CN	chrome/locale/zh-CN/
-locale	savedpasswords	fr		chrome/locale/fr/
-locale	savedpasswords	it		chrome/locale/it/
-locale	savedpasswords	ja		chrome/locale/ja/
-locale	savedpasswords	pt-PT	chrome/locale/pt-PT/
-locale	savedpasswords	ru		chrome/locale/ru/
 skin	savedpasswords	classic/1.0	chrome/skin/
 overlay	chrome://browser/content/browser.xul	chrome://savedpasswords/content/firefoxOverlay.xul
 style	chrome://global/content/customizeToolbar.xul	chrome://savedpasswords/skin/overlay.css

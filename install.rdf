@@ -53,51 +53,6 @@
         <em:translator>yfdyh000 (yfdyh000@gmail.com)</em:translator>
       </Description>
     </em:localized>
-    <em:localized>
-      <Description>
-        <em:locale>fr</em:locale>
-        <em:name>Saved Passwords Button (Bouton sauvé de mots de passe)</em:name>
-        <em:creator>Adam Franco</em:creator>
-        <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
-        <em:description>Ajoute un bouton de barre porte-outils pour ouvrir la fenêtre sauvée de mots de passe.</em:description>
-      </Description>
-    </em:localized>
-    <em:localized>
-      <Description>
-        <em:locale>it</em:locale>
-        <em:name>Saved Passwords Button (Tasto conservato di parole d'accesso)</em:name>
-        <em:creator>Adam Franco</em:creator>
-        <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
-        <em:description>Aggiunge un tasto dell'tavoletta porta-utensili per l'apertura della finestra conservata di parole d'accesso.</em:description>
-      </Description>
-    </em:localized>
-    <em:localized>
-      <Description>
-        <em:locale>ja</em:locale>
-        <em:name>Saved Passwords Button (救われたパスワードはボタンがかかる)</em:name>
-        <em:creator>Adam Franco</em:creator>
-        <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
-        <em:description>救われたパスワード窓を開けるためのツールバーボタンを加える。</em:description>
-      </Description>
-    </em:localized>
-    <em:localized>
-      <Description>
-        <em:locale>pt-PT</em:locale>
-        <em:name>Saved Passwords Button (Tecla Conservada das Senhas)</em:name>
-        <em:creator>Adam Franco</em:creator>
-        <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
-        <em:description>Adiciona uma tecla da barra de ferramentas para abrir a janela conservada das senhas.</em:description>
-      </Description>
-    </em:localized>
-    <em:localized>
-      <Description>
-        <em:locale>ru</em:locale>
-        <em:name>Saved Passwords Button (Сохраненная кнопка паролей)</em:name>
-        <em:creator>Adam Franco</em:creator>
-        <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
-        <em:description>Добавляет деталь кнопки и меню панели инструментов для раскрывать сохраненный диалог паролей.</em:description>
-      </Description>
-    </em:localized>
     <em:name>Saved Passwords Button</em:name>
     <em:version>1.2.2</em:version>
     <em:creator>Adam Franco</em:creator>
