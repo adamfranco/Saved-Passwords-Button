@@ -35,6 +35,16 @@
     </em:localized>
     <em:localized>
       <Description>
+        <em:locale>ru</em:locale>
+        <em:name>Saved Passwords Button (Кнопка сохранённых паролей)</em:name>
+        <em:creator>Adam Franco</em:creator>
+        <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
+        <em:description>Добавляет деталь кнопки и меню панели инструментов для раскрывать сохраненный диалог паролей.</em:description>
+        <em:translator>Kerberos464</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
         <em:locale>sv-SE</em:locale>
         <em:name>Knapp för Sparade lösenord (Saved Passwords Button)</em:name>
         <em:creator>Adam Franco</em:creator>
