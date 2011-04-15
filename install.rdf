@@ -47,9 +47,9 @@
       <Description>
         <em:locale>sv-SE</em:locale>
         <em:name>Knapp för Sparade lösenord (Saved Passwords Button)</em:name>
+        <em:description>Lägger till en verktygsfältsknapp som öppnar dialogen Sparade lösenord.</em:description>
         <em:creator>Adam Franco</em:creator>
         <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
-        <em:description>Lägger till en verktygsfältsknapp som öppnar dialogen Sparade lösenord.</em:description>
         <em:translator>Mikael Hiort af Ornäs</em:translator>
       </Description>
     </em:localized>
@@ -57,9 +57,9 @@
       <Description>
         <em:locale>zh-CN</em:locale>
         <em:name>已保存密码 (Saved Passwords Button)</em:name>
+        <em:description>添加打开[已保存密码]对话框的工具栏按钮和菜单项。</em:description>
         <em:creator>Adam Franco</em:creator>
         <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
-        <em:description>添加打开[已保存密码]对话框的工具栏按钮和菜单项。</em:description>
         <em:translator>yfdyh000 (yfdyh000@gmail.com)</em:translator>
       </Description>
     </em:localized>
