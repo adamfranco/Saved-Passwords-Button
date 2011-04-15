@@ -64,7 +64,7 @@
       </Description>
     </em:localized>
     <em:name>Saved Passwords Button</em:name>
-    <em:version>1.2.2</em:version>
+    <em:version>1.2.3</em:version>
     <em:creator>Adam Franco</em:creator>
     <em:description>Adds a toolbar button for opening the Saved Passwords window.</em:description>
     <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
