@@ -1,10 +1,14 @@
 content	savedpasswords	chrome/content/
+locale	savedpasswords	da		chrome/locale/da/
 locale	savedpasswords	de		chrome/locale/de/
 locale	savedpasswords	en-US	chrome/locale/en-US/
+locale	savedpasswords	eo		chrome/locale/eo/
 locale	savedpasswords	es		chrome/locale/es/
+locale	savedpasswords	hsb		chrome/locale/hsb/
 locale	savedpasswords	nl		chrome/locale/nl/
 locale	savedpasswords	ru		chrome/locale/ru/
 locale	savedpasswords	sv-SE	chrome/locale/sv-SE/
+locale	savedpasswords	tr		chrome/locale/tr/
 locale	savedpasswords	zh-CN	chrome/locale/zh-CN/
 skin	savedpasswords	classic/1.0	chrome/skin/
 overlay	chrome://browser/content/browser.xul	chrome://savedpasswords/content/firefoxOverlay.xul

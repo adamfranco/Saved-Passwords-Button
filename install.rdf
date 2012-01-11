@@ -6,6 +6,16 @@
     <em:type>2</em:type>
     <em:localized>
       <Description>
+        <em:locale>da</em:locale>
+        <em:name>Saved Passwords Button (Gemte adgangskoder)</em:name>
+        <em:creator>Adam Franco</em:creator>
+        <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
+        <em:description>Tilføjer en knap på værktøjslinjen og et menupunkt til åbning af vinduet Gemte adgangskoder.</em:description>
+        <em:translator>Joergen</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
         <em:locale>de</em:locale>
         <em:name>Saved Passwords Button</em:name>
         <em:creator>Adam Franco</em:creator>
@@ -16,12 +26,32 @@
     </em:localized>
     <em:localized>
       <Description>
+        <em:locale>eo</em:locale>
+        <em:name>Saved Passwords Button (Konservitaj pasvortoj)</em:name>
+        <em:creator>Adam Franco</em:creator>
+        <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
+        <em:description>Aldonas ilobretan butonon kaj menueron por malfermi la dialogon de konservitaj pasvortoj.</em:description>
+        <em:translator>milupo</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
         <em:locale>es</em:locale>
         <em:name>Saved Passwords Button (Botón Contraseñas Guardadas)</em:name>
         <em:creator>Adam Franco</em:creator>
         <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
         <em:description>Agrega un botón en la barra de herramientas para abrir la ventana Contraseñas Guardadas.</em:description>
         <em:translator>Alejandro Brizuela</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>hsb</em:locale>
+        <em:name>Saved Passwords Button (Składowane hesła)</em:name>
+        <em:creator>Adam Franco</em:creator>
+        <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
+        <em:description>Přidawa gratowej lajsće tłóčatko a menijowy zapisk za wočinjenje dialoga składowanych hesłow.</em:description>
+        <em:translator>milupo</em:translator>
       </Description>
     </em:localized>
     <em:localized>
@@ -56,6 +86,16 @@
     </em:localized>
     <em:localized>
       <Description>
+        <em:locale>tr</em:locale>
+        <em:name>Saved Passwords Button (Kayıtlı Parolalar)</em:name>
+        <em:creator>Adam Franco</em:creator>
+        <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
+        <em:description>Kayıtlı parolaları açmak için bir araç çubuğu düğmesi ve menü öğesi ekler.</em:description>
+        <em:translator>omrakin</em:translator>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
         <em:locale>zh-CN</em:locale>
         <em:name>已保存密码 (Saved Passwords Button)</em:name>
         <em:description>添加打开[已保存密码]对话框的工具栏按钮和菜单项。</em:description>
@@ -65,7 +105,7 @@
       </Description>
     </em:localized>
     <em:name>Saved Passwords Button</em:name>
-    <em:version>1.2.3</em:version>
+    <em:version>1.2.4</em:version>
     <em:creator>Adam Franco</em:creator>
     <em:description>Adds a toolbar button for opening the Saved Passwords window.</em:description>
     <em:homepageURL>http://www.adamfranco.com/saved-passwords</em:homepageURL>
@@ -74,7 +114,7 @@
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- firefox -->
         <em:minVersion>1.5</em:minVersion>
-        <em:maxVersion>4.0.*</em:maxVersion>
+        <em:maxVersion>11.*</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>
